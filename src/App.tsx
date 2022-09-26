@@ -1,8 +1,12 @@
 import React from "react";
-import "./App.css";
+import { Layout } from "./components/layout";
 
 function App() {
-  return <div className="App ">SISMO | FACTORY </div>;
+  return (
+    <Layout>
+      <p className="text-center w-full">SISMO | FACTORY </p>
+    </Layout>
+  );
 }
 
 export default App;
